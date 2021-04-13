@@ -1,0 +1,71 @@
+body{
+    background-color:  black;
+}
+
+
+/*-------navigation bar------*/
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+	width: 100px;
+	border-radius: 20px;
+}
+nav ul{
+	flex: 1;
+    text-align: right;
+}
+nav ul li {
+    display: inline;
+    list-style-type: style none; 
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+
+/*---------cointainer-------*/
+#loancal{
+    width: 375px;
+    height: 296px;
+    background: radial-gradient(black,grey);
+    color: rgb(255, 255, 255);
+    margin-left: 35%;
+    margin-top: 10%;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+#months {
+    width: 175px;
+    height: 20px;
+
+}
+
+#amount {
+    width: 175px;
+    height: 20px;
+}
+
+#interest_rate {
+    margin-left: 2px;
+    width: 175px;
+    height: 20px;
+}
+
+h1{
+
+	font-size:40px;
+}

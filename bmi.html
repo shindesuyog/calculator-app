@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="bmi.css">
+</head>
+
+
+<body>
+    <!---navigation bar----->
+    <div class="nav-bar">
+        <nav>
+            <img src="images/logo.jpeg" class="logo">
+            <ul>
+                <li><a href="basic.html"> Basic</a></li>
+                <li><a href="bmi.html"> BMI</a></li>
+                <li><a href="loancalculator.html"> Loan</a></li>
+                <li><a href=""> Contact Me</a></li>
+
+            </ul>
+           <!--- <img src="" id="icon">     -->
+
+        </nav>
+    </div>
+
+    <div id="container">
+        <h1>BMI Calculator</h1>
+        <b>Height in cm</b>
+        <input type="text" id="cm"> <br/>
+        <b>Weight in Kg</b>
+        <input type="text" id="kg"> <br/>
+        <input type="submit" id="submit" value="Calculator"><br/><br/>
+
+        <div id="result"></div>
+        <div id="weightguide">
+            <h2>BMI Weight Guide</h2>
+                Under Weight = less than 18.6<br/>
+                Normal Weight = 18.6 and 24.9<br/>
+                Overweight = Greater than 24.9<br/>
+                
+        </div>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+</html>

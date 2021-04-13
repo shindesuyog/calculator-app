@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+/*-------navigation bar------*/
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+	width: 100px;
+	border-radius: 20px;
+}
+nav ul{
+	flex: 1;
+    text-align: right;
+}
+nav ul li {
+    display: inline;
+    list-style-type: style none; 
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+
+/*---------cointainer-------*/
+#container{
+    width: 375px;
+    height: 525px;
+    margin-left: 550px;
+    margin-top: 65px;
+    background: radial-gradient( rgb(0, 0, 0), rgb(207, 207, 207));
+    padding-left: 30px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    
+}
+
+#cm{
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+#kg{
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+#weightguide{
+    margin-left: 75px;
+    margin-top: 50px;
+
+}
+
+#result{
+    font-size: 35px;
+    margin-left: 90px;
+    text-align: center;
+    columns: blue;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+
+
+#submit{
+
+	width:150px;
+	height:35px;
+	margin-left:90px;
+	margin-top: 25px;
+	border-radius: 5px;
+	border-style: none;
+	background-color: blue;
+	color:#fff;
+	font-size:25px;
+}
